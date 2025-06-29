@@ -67,3 +67,35 @@ Examples: Performance, security, scalability, usability, reliability.
 - Scalability: The system should be able to scale horizontally to handle increased traffic.
 - Usability: The application should have an intuitive UI/UX, making it easy for users to navigate and perform tasks.
 - Reliability: The system should have an uptime of 99.9% and recover quickly from any failures.
+
+## Use Case Diagrams
+Use Case Diagrams are a type of behavioral diagram used in Unified Modeling Language (UML) to visually represent the interactions between users (actors) and a system. They show the different ways users can interact with a system by identifying key use cases, which are specific functionalities or services the system provides.
+
+### Benefits of Use Case Diagrams:
+- Clarify System Requirements: Help stakeholders understand what the system should do from the user's perspective.
+- Improve Communication: Provide a high-level visual that aids communication between technical and non-technical stakeholders.
+- Define Scope: Help identify the boundaries and features of the system.
+- Facilitate Design and Testing: Serve as a foundation for creating detailed functional specifications and test cases.
+- Support User-Centric Design: Focus on user goals, making systems more intuitive and aligned with user needs.
+
+## Importance of Acceptance Criteria in Requirement Analysis
+Acceptance Criteria are clear, specific conditions that a software product must meet for a feature to be accepted by stakeholders (typically the client or product owner). In requirement analysis, they are crucial because they:
+
+- Define Scope and Expectations: Clarify what "done" means for a requirement or feature.
+- Reduce Misunderstandings: Ensure that developers, testers, and stakeholders have a shared understanding of what to build.
+- Enable Testability: Provide a basis for creating test cases and verifying functionality.
+- Guide Development: Help developers focus on exactly what needs to be implemented.
+- Support Agile Practices: Integral to user stories in Agile/Scrum, promoting incremental and quality delivery.
+
+### Acceptance Criteria for a Checkout Feature in the Booking Management System
+Feature: Checkout – allows users to finalize and confirm their booking.
+
+### Acceptance Criteria:
+
+- User must be logged in to access the checkout page.
+- Booking summary (property name, dates, number of guests, price breakdown) is displayed before payment.
+- User must provide valid payment information (credit/debit card or supported payment method).
+- System must validate payment details before processing.
+- On successful payment, a booking confirmation is shown, and a confirmation email is sent to the user.
+- If payment fails, an appropriate error message is displayed, and the booking is not created.
+- User cannot proceed to checkout if the selected dates are no longer available.
