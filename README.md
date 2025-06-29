@@ -78,6 +78,9 @@ Use Case Diagrams are a type of behavioral diagram used in Unified Modeling Lang
 - Facilitate Design and Testing: Serve as a foundation for creating detailed functional specifications and test cases.
 - Support User-Centric Design: Focus on user goals, making systems more intuitive and aligned with user needs.
 
+![alx-booking-uc](https://github.com/user-attachments/assets/7b2136ff-86db-45f6-8185-5bbd04c3bc75)
+
+
 ## Importance of Acceptance Criteria in Requirement Analysis
 Acceptance Criteria are clear, specific conditions that a software product must meet for a feature to be accepted by stakeholders (typically the client or product owner). In requirement analysis, they are crucial because they:
 
